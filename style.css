@@ -1,0 +1,80 @@
+body {
+  background: rgba(29, 36, 58, 0.917);
+  color: rgb(67, 67, 67);
+  font-family: "Zain", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 1.4;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  padding: 5px;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.4s ease;
+  border: 1px solid transparent;
+}
+
+a:visited {
+  color: inherit
+}
+a:hover {
+  border: 1px solid black;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card{
+  background-color: white;
+  border: 1px solid white;
+  margin: 10px auto;
+  padding: 30px;
+}
+
+.img-circle {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
